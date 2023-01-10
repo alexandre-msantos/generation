@@ -7,9 +7,9 @@ public class Exercicio01 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o salário: ");
-        double salario = sc.nextDouble();
+        float salario = sc.nextFloat();
         System.out.print("Digite o abono: ");
-        double abono = sc.nextDouble();
+        float abono = sc.nextFloat();
 
         System.out.printf("Novo Salário: %.2f", salario + abono);
     }
