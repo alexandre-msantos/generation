@@ -1,0 +1,21 @@
+programa {
+  /* Leia quatro valores inteiros (numero1, numero2, numero3 e numero4). A seguir, calcule e mostre 
+     a diferença do produto entre o numero1 e o numero2 pelo produto entre o numero3 e o numero4 
+  */
+
+  funcao inicio() {
+
+    inteiro numero1, numero2, numero3, numero4, diferenca
+
+    escreva("Digite o primeiro número: ")
+    leia(numero1)
+    escreva("Digite o segundo número: ")
+    leia(numero2)
+    escreva("Digite o terceiro número: ")
+    leia(numero3)
+    escreva("Digite o quarto número: ")
+    leia(numero4)
+
+    escreva("\nDiferença: ",(numero1 * numero2) - (numero3 * numero4))
+  }
+}

@@ -1,0 +1,21 @@
+programa {
+  /*2 - Elabore um algoritmo que leia 4 notas de um participante, em variáveis do tipo 
+    real e exiba na tela a média final do participante. Veja o exemplo abaixo:*/
+
+  funcao inicio() {
+    
+    real nota1, nota2, nota3, nota4
+    real media
+
+    escreva("Digite a primeira nota: ")
+    leia(nota1)
+    escreva("Digite a segunda nota: ")
+    leia(nota2)
+    escreva("Digite a terceira nota: ")
+    leia(nota3)
+    escreva("Digite a quarta nota: ")
+    leia(nota4)
+
+    escreva((nota1 + nota2 + nota3 + nota4)/4)    
+  }
+}

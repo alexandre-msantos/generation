@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    /* Elabore um algoritmo que leia o Salário Bruto, o Adicional Noturno, as Horas Extras 
+    e os Descontos de um Colaborador, em variáveis do tipo real e exiba na tela o Salário Líquido*/
+
+    real salBruto, adNoturno, hrExtra, descontos, salLiquido
+
+    escreva("Digite o salário bruto: ")
+    leia(salBruto)
+    escreva("Digite o adicional noturno: ")
+    leia(adNoturno)
+    escreva("Digite as horas extras: ")
+    leia(hrExtra)
+    escreva("Digite os descontos: ")
+    leia(descontos)
+
+    escreva("\nSalário Líquido: ", salBruto + adNoturno + (hrExtra * 5) - descontos)
+
+
+  }
+}
