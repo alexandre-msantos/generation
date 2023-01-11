@@ -93,7 +93,6 @@ public class ExerciciosGeral {
                     System.out.printf(qntd + "x Suco de laranja -- Total: R$ %.2f ", 15.00 * qntd);
                     break;
             }
-
         }
     }
 
@@ -114,8 +113,6 @@ public class ExerciciosGeral {
             }else{
                 System.out.println("A pessoa não está apta a votar.");
             }
-
-
         }
     }
 
@@ -175,6 +172,5 @@ public class ExerciciosGeral {
             }
         }
     }
-
 }
 */

@@ -20,7 +20,5 @@ public class Exercicio04 {
         }else{
             System.out.println("A pessoa não está apta a votar.");
         }
-
-
     }
 }
