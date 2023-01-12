@@ -47,6 +47,5 @@ public class Exercicio03 {
                 System.out.printf(qntd + "x Suco de laranja -- Total: R$ %.2f ", 15.00 * qntd);
                 break;
         }
-
     }
 }
